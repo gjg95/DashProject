@@ -10,7 +10,7 @@ fulldata = list()
 
 def csvMaker():
     results = pd.DataFrame()
-    os.chdir("C:/Users/jsolana/Desktop/Datos Gen PW")
+    os.chdir("C:/Users/***/Desktop/Datos Gen PW")
     for counter, current_file in enumerate(glob.glob('**/**/'+tipoList[i]+'*',recursive=True)):
         namedf = pd.read_csv(current_file,sep=';', usecols=[0,1,2])
         results = pd.concat([results, namedf])
@@ -55,5 +55,5 @@ final.rename({
     inplace=True
 )
 final.info()
-os.chdir(r"C:\Users\jsolana\Desktop\Planta aguas Project")
+os.chdir(r"C:\Users\****\Desktop\Planta aguas Project")
 final.to_csv('Data/Database_GenPW.csv')
