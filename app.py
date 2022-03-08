@@ -4,7 +4,7 @@ import sqlite3
 
 
 conn = sqlite3.connect(
-    'C:/Users/jsolana/Desktop/Planta aguas Project/Data/DATABASE.db',
+    'C:/Users/***/Desktop/Planta aguas Project/Data/DATABASE.db',
     check_same_thread=False
 )
 cur = conn.cursor()
