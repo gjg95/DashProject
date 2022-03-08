@@ -50,7 +50,7 @@ def csvMaker():
     
     results1.info()
     results1.head()
-    os.chdir("C:/Users/jsolana/Desktop/Planta aguas Project/")
+    os.chdir("C:/Users/***/Desktop/Planta aguas Project/")
     results1.to_csv(
         str('Data/'+tipoList[i])+'_Master.csv', 
         index_label="TimeString"
@@ -64,7 +64,7 @@ for i in tipoList:
     
 
     
-os.chdir(r"C:\Users\jsolana\Desktop\Planta aguas Project")
+os.chdir(r"C:\Users\***\Desktop\Planta aguas Project")
 
 df1 = pd.read_table('Data/Caudal_PW_Master.csv', sep=',')
 df2 = pd.read_table('Data/Caudal_WFI_Master.csv', sep=',')
