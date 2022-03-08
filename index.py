@@ -241,9 +241,9 @@ situdada en la parte inferior.
 rápida de la gráfica que se observa en ese momento en pantalla y de los datos
 en formato .csv que el programa utiliza para realizarla.
   + Nombredelagráfica fechainicio_fechafin.pdf 
-    (C:/Users/jsolana/Desktop/Planta aguas Project/Gráficas)
+    (C:/Users/***/Desktop/Planta aguas Project/Gráficas)
   + Nombredelagráfica fechainicio_fechafin.csv
-    (C:/Users/jsolana/Desktop/Planta aguas Project/CSV)
+    (C:/Users/***/Desktop/Planta aguas Project/CSV)
 
 * **Gráfica:** Cada una de las gráficas cuenta con un títutlo que describe su
 contenido, una descripción en el eje y que indica las unidades que se están
