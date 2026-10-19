@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "model": "opusplan",
+  "effortLevel": "high",
+  "modelSettings": {
+    "claude-opus-5-5": {
+      "effortLevel": "medium",
+      "maxEffortLevel": "medium"
+    }
+  },
+  "permissions": {
+    "allow": [
+      "Bash(pytest)",
+      "Bash(pytest *)",
+      "Bash(python -m pytest)",
+      "Bash(python -m pytest *)",
+      "Bash(python3 -m pytest)",
+      "Bash(python3 -m pytest *)",
+      "WebFetch(domain:dash.plotly.com)",
+      "WebFetch(domain:dash-bootstrap-components.com)",
+      "WebFetch(domain:pandas.pydata.org)",
+      "WebFetch(domain:apscheduler.readthedocs.io)"
+    ]
+  }
+}
